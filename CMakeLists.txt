@@ -1,8 +1,12 @@
 cmake_minimum_required(VERSION 2.6)
 project(Tiler)
 
-find_package(SDL2 REQUIRED)
-include_directories(${SDL2_INCLUDE_DIR})
+add_executable(${PROJECT_NAME} src/main.cpp src/graphics.cpp src/sprite.cpp)
 
-add_executable(${PROJECT_NAME} src/main.cpp src/sdlgraphics.cpp src/sprite.cpp)
-target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES})
+INCLUDE(FindPkgConfig)
+
+PKG_SEARCH_MODULE(SDL2 REQUIRED sdl2)
+PKG_SEARCH_MODULE(SDL2IMAGE REQUIRED SDL2_image>=2.0.0)
+
+INCLUDE_DIRECTORIES(${SDL2_INCLUDE_DIRS} ${SDL2IMAGE_INCLUDE_DIRS} ${SDL2TTF_INCLUDE_DIRS})
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${SDL2_LIBRARIES} ${SDL2IMAGE_LIBRARIES} ${SDL2TTF_LIBRARIES})

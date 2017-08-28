@@ -1,18 +1,17 @@
 #include"main.h"
 
+#include "graphics.h"
+#include "sprite.h"
+
 int main()
 {
-    std::cout<<"Hello world!"<<std::endl;
-    
     SDL_Init(SDL_INIT_EVERYTHING);
 
-    std::cout<<"SDL initiated."<<std::endl;    
+    bool quit = false;
 
-    SDLGraphics screen = SDLGraphics(1024, 768, "Tile Tiler Tiled");
+    graphics screen(&quit, 1024, 768);
 
-    SDL_Renderer* renderer = screen.renderer;
-
-    Sprite tile = Sprite("../src/tiles.bmp", renderer, 4, 3);
+    Sprite tile = Sprite("../data/tiles.bmp", screen.GetRenderer(), 4, 3);
     SDL_Rect dstrect;
 
     dstrect.x = 10;
@@ -20,7 +19,6 @@ int main()
     dstrect.w = 20;
     dstrect.h = 20;
 
-    bool quit = false;
     SDL_Event ev;
 
     while(!quit){
@@ -32,9 +30,9 @@ int main()
             }
         }
 
-        screen.begin();
-        tile.Draw(renderer, dstrect, 1);
-        screen.end();
+        screen.Begin();
+        tile.Draw(dstrect, x++);
+        screen.End();
 
     }
 

@@ -4,14 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/paul/Repositories/Tiler/src/graphics.cpp" "/home/paul/Repositories/Tiler/build/CMakeFiles/Tiler.dir/src/graphics.cpp.o"
   "/home/paul/Repositories/Tiler/src/main.cpp" "/home/paul/Repositories/Tiler/build/CMakeFiles/Tiler.dir/src/main.cpp.o"
-  "/home/paul/Repositories/Tiler/src/sdlgraphics.cpp" "/home/paul/Repositories/Tiler/build/CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.o"
   "/home/paul/Repositories/Tiler/src/sprite.cpp" "/home/paul/Repositories/Tiler/build/CMakeFiles/Tiler.dir/src/sprite.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/usr/include/SDL2"
   )
 
 # Targets to which this target links.

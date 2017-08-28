@@ -6,9 +6,21 @@
 
 #IncludeRegexTransform: 
 
+/home/paul/Repositories/Tiler/src/graphics.cpp
+graphics.h
+/home/paul/Repositories/Tiler/src/graphics.h
+
+/home/paul/Repositories/Tiler/src/graphics.h
+main.h
+/home/paul/Repositories/Tiler/src/main.h
+
 /home/paul/Repositories/Tiler/src/main.cpp
 main.h
 /home/paul/Repositories/Tiler/src/main.h
+graphics.h
+/home/paul/Repositories/Tiler/src/graphics.h
+sprite.h
+/home/paul/Repositories/Tiler/src/sprite.h
 
 /home/paul/Repositories/Tiler/src/main.h
 iostream
@@ -19,20 +31,6 @@ SDL2/SDL.h
 -
 SDL2/SDL_image.h
 -
-SDL2/SDL_ttf.h
--
-sdlgraphics.h
-/home/paul/Repositories/Tiler/src/sdlgraphics.h
-sprite.h
-/home/paul/Repositories/Tiler/src/sprite.h
-
-/home/paul/Repositories/Tiler/src/sdlgraphics.cpp
-sdlgraphics.h
-/home/paul/Repositories/Tiler/src/sdlgraphics.h
-
-/home/paul/Repositories/Tiler/src/sdlgraphics.h
-main.h
-/home/paul/Repositories/Tiler/src/main.h
 
 /home/paul/Repositories/Tiler/src/sprite.cpp
 sprite.h

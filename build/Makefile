@@ -123,6 +123,33 @@ Tiler/fast:
 	$(MAKE) -f CMakeFiles/Tiler.dir/build.make CMakeFiles/Tiler.dir/build
 .PHONY : Tiler/fast
 
+src/graphics.o: src/graphics.cpp.o
+
+.PHONY : src/graphics.o
+
+# target to build an object file
+src/graphics.cpp.o:
+	$(MAKE) -f CMakeFiles/Tiler.dir/build.make CMakeFiles/Tiler.dir/src/graphics.cpp.o
+.PHONY : src/graphics.cpp.o
+
+src/graphics.i: src/graphics.cpp.i
+
+.PHONY : src/graphics.i
+
+# target to preprocess a source file
+src/graphics.cpp.i:
+	$(MAKE) -f CMakeFiles/Tiler.dir/build.make CMakeFiles/Tiler.dir/src/graphics.cpp.i
+.PHONY : src/graphics.cpp.i
+
+src/graphics.s: src/graphics.cpp.s
+
+.PHONY : src/graphics.s
+
+# target to generate assembly for a file
+src/graphics.cpp.s:
+	$(MAKE) -f CMakeFiles/Tiler.dir/build.make CMakeFiles/Tiler.dir/src/graphics.cpp.s
+.PHONY : src/graphics.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -149,33 +176,6 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Tiler.dir/build.make CMakeFiles/Tiler.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
-
-src/sdlgraphics.o: src/sdlgraphics.cpp.o
-
-.PHONY : src/sdlgraphics.o
-
-# target to build an object file
-src/sdlgraphics.cpp.o:
-	$(MAKE) -f CMakeFiles/Tiler.dir/build.make CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.o
-.PHONY : src/sdlgraphics.cpp.o
-
-src/sdlgraphics.i: src/sdlgraphics.cpp.i
-
-.PHONY : src/sdlgraphics.i
-
-# target to preprocess a source file
-src/sdlgraphics.cpp.i:
-	$(MAKE) -f CMakeFiles/Tiler.dir/build.make CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.i
-.PHONY : src/sdlgraphics.cpp.i
-
-src/sdlgraphics.s: src/sdlgraphics.cpp.s
-
-.PHONY : src/sdlgraphics.s
-
-# target to generate assembly for a file
-src/sdlgraphics.cpp.s:
-	$(MAKE) -f CMakeFiles/Tiler.dir/build.make CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.s
-.PHONY : src/sdlgraphics.cpp.s
 
 src/sprite.o: src/sprite.cpp.o
 
@@ -213,12 +213,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Tiler"
+	@echo "... src/graphics.o"
+	@echo "... src/graphics.i"
+	@echo "... src/graphics.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/sdlgraphics.o"
-	@echo "... src/sdlgraphics.i"
-	@echo "... src/sdlgraphics.s"
 	@echo "... src/sprite.o"
 	@echo "... src/sprite.i"
 	@echo "... src/sprite.s"

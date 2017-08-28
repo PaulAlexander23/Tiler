@@ -81,28 +81,28 @@ CMakeFiles/Tiler.dir/src/main.cpp.o.provides: CMakeFiles/Tiler.dir/src/main.cpp.
 CMakeFiles/Tiler.dir/src/main.cpp.o.provides.build: CMakeFiles/Tiler.dir/src/main.cpp.o
 
 
-CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.o: CMakeFiles/Tiler.dir/flags.make
-CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.o: ../src/sdlgraphics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paul/Repositories/Tiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.o -c /home/paul/Repositories/Tiler/src/sdlgraphics.cpp
+CMakeFiles/Tiler.dir/src/graphics.cpp.o: CMakeFiles/Tiler.dir/flags.make
+CMakeFiles/Tiler.dir/src/graphics.cpp.o: ../src/graphics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paul/Repositories/Tiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Tiler.dir/src/graphics.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tiler.dir/src/graphics.cpp.o -c /home/paul/Repositories/Tiler/src/graphics.cpp
 
-CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paul/Repositories/Tiler/src/sdlgraphics.cpp > CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.i
+CMakeFiles/Tiler.dir/src/graphics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tiler.dir/src/graphics.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paul/Repositories/Tiler/src/graphics.cpp > CMakeFiles/Tiler.dir/src/graphics.cpp.i
 
-CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paul/Repositories/Tiler/src/sdlgraphics.cpp -o CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.s
+CMakeFiles/Tiler.dir/src/graphics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tiler.dir/src/graphics.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paul/Repositories/Tiler/src/graphics.cpp -o CMakeFiles/Tiler.dir/src/graphics.cpp.s
 
-CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.o.requires:
+CMakeFiles/Tiler.dir/src/graphics.cpp.o.requires:
 
-.PHONY : CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.o.requires
+.PHONY : CMakeFiles/Tiler.dir/src/graphics.cpp.o.requires
 
-CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.o.provides: CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Tiler.dir/build.make CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.o.provides.build
-.PHONY : CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.o.provides
+CMakeFiles/Tiler.dir/src/graphics.cpp.o.provides: CMakeFiles/Tiler.dir/src/graphics.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Tiler.dir/build.make CMakeFiles/Tiler.dir/src/graphics.cpp.o.provides.build
+.PHONY : CMakeFiles/Tiler.dir/src/graphics.cpp.o.provides
 
-CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.o.provides.build: CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.o
+CMakeFiles/Tiler.dir/src/graphics.cpp.o.provides.build: CMakeFiles/Tiler.dir/src/graphics.cpp.o
 
 
 CMakeFiles/Tiler.dir/src/sprite.cpp.o: CMakeFiles/Tiler.dir/flags.make
@@ -132,14 +132,14 @@ CMakeFiles/Tiler.dir/src/sprite.cpp.o.provides.build: CMakeFiles/Tiler.dir/src/s
 # Object files for target Tiler
 Tiler_OBJECTS = \
 "CMakeFiles/Tiler.dir/src/main.cpp.o" \
-"CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.o" \
+"CMakeFiles/Tiler.dir/src/graphics.cpp.o" \
 "CMakeFiles/Tiler.dir/src/sprite.cpp.o"
 
 # External object files for target Tiler
 Tiler_EXTERNAL_OBJECTS =
 
 Tiler: CMakeFiles/Tiler.dir/src/main.cpp.o
-Tiler: CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.o
+Tiler: CMakeFiles/Tiler.dir/src/graphics.cpp.o
 Tiler: CMakeFiles/Tiler.dir/src/sprite.cpp.o
 Tiler: CMakeFiles/Tiler.dir/build.make
 Tiler: CMakeFiles/Tiler.dir/link.txt
@@ -152,7 +152,7 @@ CMakeFiles/Tiler.dir/build: Tiler
 .PHONY : CMakeFiles/Tiler.dir/build
 
 CMakeFiles/Tiler.dir/requires: CMakeFiles/Tiler.dir/src/main.cpp.o.requires
-CMakeFiles/Tiler.dir/requires: CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.o.requires
+CMakeFiles/Tiler.dir/requires: CMakeFiles/Tiler.dir/src/graphics.cpp.o.requires
 CMakeFiles/Tiler.dir/requires: CMakeFiles/Tiler.dir/src/sprite.cpp.o.requires
 
 .PHONY : CMakeFiles/Tiler.dir/requires

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Tiler.dir/src/main.cpp.o"
-  "CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.o"
+  "CMakeFiles/Tiler.dir/src/graphics.cpp.o"
   "CMakeFiles/Tiler.dir/src/sprite.cpp.o"
   "Tiler.pdb"
   "Tiler"
