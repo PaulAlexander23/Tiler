@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/Tiler.dir/src/main.cpp.o CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.o CMakeFiles/Tiler.dir/src/sprite.cpp.o  -o Tiler -rdynamic -L/usr/lib/x86_64-linux-gnu  -lSDL2 
