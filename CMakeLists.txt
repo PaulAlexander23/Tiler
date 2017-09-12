@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.6)
 project(Tiler)
 
-add_executable(${PROJECT_NAME} src/main.cpp src/graphics.cpp src/sprite.cpp)
+add_executable(${PROJECT_NAME} src/main.cpp src/graphics.cpp src/tile.cpp)# src/map.cpp)
 
 INCLUDE(FindPkgConfig)
 
