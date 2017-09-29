@@ -1,8 +1,8 @@
 #include"main.h"
 
 #include "graphics.h"
-#include "tile.h"
-//#include "map.h"
+//#include "tile.h"
+#include "map.h"
 
 int main()
 {
@@ -13,12 +13,11 @@ int main()
     graphics screen(&quit, 1024, 768);
 
 	
-	SDL_Texture image = IMG_LoadTexture(renderer, "../data/tiles.bmp");
-	if (image == NULL){
-		std::cout << "Counld't Load." << std::endl;
-	}
+	//SDL_Texture image = IMG_LoadTexture(renderer, "../data/tiles.bmp");
+	//if (image == NULL){
+	//	std::cout << "Counld't Load." << std::endl;
+	//}
 
-    tile
 
     /*Sprite tile("../data/tiles.bmp", screen.GetRenderer(), 4, 3);
     SDL_Rect dstrect;
@@ -30,7 +29,7 @@ int main()
 
     //std::cout<<"Hello"<<std::endl;
 
-    //map m(screen.GetRenderer(), 1024, 768);
+    map m(screen.GetRenderer(), 1024, 768);
 
     SDL_Event ev;
     int x = 0;
@@ -45,7 +44,7 @@ int main()
         }
 
         screen.Begin();
-        //m.Draw();
+        m.Draw();
         screen.End();
 
     }

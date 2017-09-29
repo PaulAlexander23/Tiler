@@ -7,7 +7,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/paul/Repositories/Tiler/src/graphics.cpp" "/home/paul/Repositories/Tiler/build/CMakeFiles/Tiler.dir/src/graphics.cpp.o"
   "/home/paul/Repositories/Tiler/src/main.cpp" "/home/paul/Repositories/Tiler/build/CMakeFiles/Tiler.dir/src/main.cpp.o"
   "/home/paul/Repositories/Tiler/src/map.cpp" "/home/paul/Repositories/Tiler/build/CMakeFiles/Tiler.dir/src/map.cpp.o"
-  "/home/paul/Repositories/Tiler/src/sprite.cpp" "/home/paul/Repositories/Tiler/build/CMakeFiles/Tiler.dir/src/sprite.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -9,14 +9,8 @@ CMakeFiles/Tiler.dir/src/main.cpp.o: ../src/graphics.h
 CMakeFiles/Tiler.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/Tiler.dir/src/main.cpp.o: ../src/main.h
 CMakeFiles/Tiler.dir/src/main.cpp.o: ../src/map.h
-CMakeFiles/Tiler.dir/src/main.cpp.o: ../src/sprite.h
 
 CMakeFiles/Tiler.dir/src/map.cpp.o: ../src/main.h
 CMakeFiles/Tiler.dir/src/map.cpp.o: ../src/map.cpp
 CMakeFiles/Tiler.dir/src/map.cpp.o: ../src/map.h
-CMakeFiles/Tiler.dir/src/map.cpp.o: ../src/sprite.h
-
-CMakeFiles/Tiler.dir/src/sprite.cpp.o: ../src/main.h
-CMakeFiles/Tiler.dir/src/sprite.cpp.o: ../src/sprite.cpp
-CMakeFiles/Tiler.dir/src/sprite.cpp.o: ../src/sprite.h
 

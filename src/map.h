@@ -1,7 +1,7 @@
 #pragma once
 
 #include "main.h"
-#include "sprite.h"
+#include <vector>
 
 class map
 {
@@ -13,7 +13,8 @@ public:
 
 private:
 	SDL_Rect rect;
-    Sprite tile;
     int x;
-
+    const int Rows = 10;
+    const int Cols = 10;
+    std::vector<std::vector<int> > tiles;
 };

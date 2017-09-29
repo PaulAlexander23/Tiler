@@ -18,6 +18,4 @@ tile::~tile()
 void tile::Draw()
 {
 	SDL_RenderCopy(renderer, image,NULL,&rect);
-
-
 }
