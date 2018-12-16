@@ -27,8 +27,11 @@ SDLGraphics::~SDLGraphics()
 
 void SDLGraphics::begin()
 {
+    std::cout<<"Clear renderer."<<std::endl;
 	SDL_RenderClear(renderer);
+    std::cout<<"Set draw colour."<<std::endl;
     SDL_SetRenderDrawColor(renderer, backgroundColourRed, backgroundColourGreen, backgroundColourBlue, 255);
+    std::cout<<"Draw background rectangle."<<std::endl;
     SDL_RenderDrawRect(renderer,NULL);
 }
 
