@@ -4,15 +4,15 @@ int main()
 {
     std::cout<<"Start of script"<<std::endl;
     
+    std::cout<<"Initiate SDL."<<std::endl;    
     SDL_Init(SDL_INIT_EVERYTHING);
-    std::cout<<"SDL initiated."<<std::endl;    
 
+    std::cout<<"Create screen and renderer."<<std::endl;
     SDLGraphics screen = SDLGraphics(1024, 768, "Tiler");
     SDL_Renderer* renderer = screen.renderer;
-    std::cout<<"Screen and renderer created."<<std::endl;
 
-    Sprite tile = Sprite("../data/tiles.bmp", renderer, 4, 3);
-    std::cout<<"Sprite created."<<std::endl;
+    //std::cout<<"Create sprite."<<std::endl;
+    //Sprite tile = Sprite("../data/tiles.bmp", renderer, 4, 3);
 
     SDL_Rect dstrect;
 
@@ -24,7 +24,7 @@ int main()
     bool quit = false;
     SDL_Event ev;
 
-    std::cout<<"Start of game loop."<<std::endl;
+    std::cout<<"Start game loop."<<std::endl;
     while(!quit){
         std::cout<<"Check event queue."<<std::endl;
         while(SDL_PollEvent(&ev)){
@@ -34,16 +34,19 @@ int main()
                 break;
             }
         }
-        std::cout<<"Event queue empty."<<std::endl;
 
         std::cout<<"Start drawing frame."<<std::endl;
         screen.begin();
-        std::cout<<"Drawing tile."<<std::endl;
-        tile.Draw(renderer, dstrect, 1);
-        screen.end();
+
+        //std::cout<<"Draw tile."<<std::endl;
+        //tile.Draw(renderer, dstrect, 1);
+
         std::cout<<"End drawing frame."<<std::endl;
+        screen.end();
     }
-    std::cout<<"End of game loop."<<std::endl;
+
+    std::cout<<"Destroy Renderer."<<std::endl;
+    SDL_DestroyRenderer(renderer);
 
     std::cout<<"Quit SDL."<<std::endl;
     SDL_Quit();
