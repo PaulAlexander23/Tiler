@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/paul/Repositories/Tiler/src/main.cpp
+/home/paul/Repositories/tiler-cpp/src/main.cpp
 main.h
-/home/paul/Repositories/Tiler/src/main.h
+/home/paul/Repositories/tiler-cpp/src/main.h
 
-/home/paul/Repositories/Tiler/src/main.h
+/home/paul/Repositories/tiler-cpp/src/main.h
 iostream
 -
 string
@@ -22,23 +22,23 @@ SDL2/SDL_image.h
 SDL2/SDL_ttf.h
 -
 sdlgraphics.h
-/home/paul/Repositories/Tiler/src/sdlgraphics.h
+/home/paul/Repositories/tiler-cpp/src/sdlgraphics.h
 sprite.h
-/home/paul/Repositories/Tiler/src/sprite.h
+/home/paul/Repositories/tiler-cpp/src/sprite.h
 
-/home/paul/Repositories/Tiler/src/sdlgraphics.cpp
+/home/paul/Repositories/tiler-cpp/src/sdlgraphics.cpp
 sdlgraphics.h
-/home/paul/Repositories/Tiler/src/sdlgraphics.h
+/home/paul/Repositories/tiler-cpp/src/sdlgraphics.h
 
-/home/paul/Repositories/Tiler/src/sdlgraphics.h
+/home/paul/Repositories/tiler-cpp/src/sdlgraphics.h
 main.h
-/home/paul/Repositories/Tiler/src/main.h
+/home/paul/Repositories/tiler-cpp/src/main.h
 
-/home/paul/Repositories/Tiler/src/sprite.cpp
+/home/paul/Repositories/tiler-cpp/src/sprite.cpp
 sprite.h
-/home/paul/Repositories/Tiler/src/sprite.h
+/home/paul/Repositories/tiler-cpp/src/sprite.h
 
-/home/paul/Repositories/Tiler/src/sprite.h
+/home/paul/Repositories/tiler-cpp/src/sprite.h
 main.h
-/home/paul/Repositories/Tiler/src/main.h
+/home/paul/Repositories/tiler-cpp/src/main.h
 

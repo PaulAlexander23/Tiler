@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/paul/Repositories/Tiler/src/main.cpp" "/home/paul/Repositories/Tiler/build/CMakeFiles/Tiler.dir/src/main.cpp.o"
-  "/home/paul/Repositories/Tiler/src/sdlgraphics.cpp" "/home/paul/Repositories/Tiler/build/CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.o"
-  "/home/paul/Repositories/Tiler/src/sprite.cpp" "/home/paul/Repositories/Tiler/build/CMakeFiles/Tiler.dir/src/sprite.cpp.o"
+  "/home/paul/Repositories/tiler-cpp/src/main.cpp" "/home/paul/Repositories/tiler-cpp/build2/CMakeFiles/Tiler.dir/src/main.cpp.o"
+  "/home/paul/Repositories/tiler-cpp/src/sdlgraphics.cpp" "/home/paul/Repositories/tiler-cpp/build2/CMakeFiles/Tiler.dir/src/sdlgraphics.cpp.o"
+  "/home/paul/Repositories/tiler-cpp/src/sprite.cpp" "/home/paul/Repositories/tiler-cpp/build2/CMakeFiles/Tiler.dir/src/sprite.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
